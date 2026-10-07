@@ -50,7 +50,7 @@ namespace BulkyBookDataAccess.Migrations
                 keyColumn: "Id",
                 keyValue: 5,
                 column: "CategoryId",
-                value: 7);
+                value: 3);
 
             migrationBuilder.CreateIndex(
                 name: "IX_Products_CategoryId",
