@@ -20,6 +20,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         //private readonly ICategoryRepository _categoryRepo;
+        //Ashish Test
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _iwebHostEnvironment;
         public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment iwebHostEnvironment)
